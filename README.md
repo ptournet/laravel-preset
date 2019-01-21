@@ -1,4 +1,7 @@
-# Patrick Tournet's Laravel Frontend Preset (based on Adam Wathan's one)
+# Patrick Tournet's Laravel Frontend Preset
+#####(based on Adam Wathan's one)
+
+*****
 
 A Laravel frontend preset that scaffolds out new applications just the way I like 'em!
 
@@ -15,18 +18,7 @@ What it includes:
 
 ## Installation
 
-This package isn't on Packagist (yet), so to get started, add it as a repository to your `composer.json` file:
-
-```json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/ptournet/laravel-preset"
-    }
-]
-```
-
-Next, run this command to add the preset to your project:
+This package being now on Packagist, you just have to run this command to add the preset to your project:
 
 ```
 composer require ptournet/laravel-preset --dev
