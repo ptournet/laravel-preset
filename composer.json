@@ -1,6 +1,6 @@
 {
-    "name": "adamwathan/laravel-preset",
-    "description": "Adam Wathan's Laravel Frontend Preset",
+    "name": "ptournet/laravel-preset",
+    "description": "Patrick Tournet's Laravel Frontend Preset (based on Adam Wathan's one)",
     "keywords": ["laravel", "preset"],
     "license": "MIT",
     "require": {
@@ -8,13 +8,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NothingWorks\\LaravelPreset\\": "src/"
+            "Ptournet\\LaravelPreset\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NothingWorks\\LaravelPreset\\PresetServiceProvider"
+                "Ptournet\\LaravelPreset\\PresetServiceProvider"
             ]
         }
     }
