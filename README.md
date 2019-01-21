@@ -1,5 +1,5 @@
 # Patrick Tournet's Laravel Frontend Preset
-#####(based on Adam Wathan's one)
+###### (based on Adam Wathan's one)
 
 *****
 
