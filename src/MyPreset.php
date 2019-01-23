@@ -80,13 +80,13 @@ class MyPreset extends BasePreset
 
     protected static function updateNpmRunScript($command)
     {
-        $command->notice("npm install");
+        $command->line("--- npm install ---");
         system('npm install');
 
-        $command->alert("tailwind init");
+        $command->line("--- tailwind init ---");
         system(base_path('node_modules/.bin/tailwind init'));
 
-        $command->alert("npm run dev");
+        $command->line("--- npm run dev ---");
         system('npm run dev');
     }
 }
